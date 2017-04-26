@@ -1,6 +1,6 @@
 # npmdoc-money-math
 
-#### api documentation for  [money-math (v2.5.0)](https://github.com/ikr/money-math#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-money-math.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-money-math) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-money-math.svg)](https://travis-ci.org/npmdoc/node-npmdoc-money-math)
+#### basic api documentation for  [money-math (v2.5.0)](https://github.com/ikr/money-math#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-money-math.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-money-math) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-money-math.svg)](https://travis-ci.org/npmdoc/node-npmdoc-money-math)
 
 #### jsbn-based arbitrary precision operations on currency amounts "XXX.YY"; because floats are BAD for representing money
 
@@ -78,7 +78,8 @@
         "tdd": "mocha -b -R min -w ./spec/*.spec.js",
         "test": "mocha ./spec/*.spec.js"
     },
-    "version": "2.5.0"
+    "version": "2.5.0",
+    "bin": {}
 }
 ```
 
